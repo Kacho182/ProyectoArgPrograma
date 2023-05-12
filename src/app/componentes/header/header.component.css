@@ -1,0 +1,12 @@
+.loginButton{
+    display:inline
+    
+}
+.instaLogo{
+    display: inline-block;
+    margin: 10px;
+}
+.faceLogo{
+    display: inline-block;
+    margin-right: 10px;
+}

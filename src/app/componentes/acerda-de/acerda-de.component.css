@@ -1,0 +1,13 @@
+.card-photo{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 30px;
+    transform: translateY(50%);
+}
+.card-title, p{
+    margin-left: 50px;
+}
+.card-title{
+    margin-top: 10px;
+}
+

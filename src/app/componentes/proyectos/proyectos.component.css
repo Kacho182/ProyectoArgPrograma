@@ -1,0 +1,22 @@
+.buttonNew{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.buttons{
+    position: relative;
+    right: 0;
+    top: 0;
+}
+
+.editButton{
+    display: inline-block;
+
+
+}
+
+.deleteButton{
+    display: inline-block;
+}

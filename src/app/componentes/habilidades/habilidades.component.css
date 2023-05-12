@@ -1,0 +1,20 @@
+.habilidad-Titulos{
+    text-align: center;
+}
+
+.editButton{
+    display: inline-block;
+
+}
+
+.deleteButton{
+    display: inline-block;
+}
+
+.col-md-4{
+    margin: 40px;
+}
+
+.nombre{
+    align-items: center;
+}
