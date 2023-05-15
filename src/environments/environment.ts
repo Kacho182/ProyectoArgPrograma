@@ -19,6 +19,6 @@ const firestore = getFirestore(app);
 
 export const environment =  {
   production: false,
-  URL: 'http://localhost:8080/',
+  URL: 'https://portfolio-argentinaprogr-1b50f.web.app/',
   firebase: firebaseConfig
 };
