@@ -8,7 +8,7 @@ import { environment } from 'src/environments/environment';
   providedIn: 'root'
 })
 export class ProyectoService {
-  URL = environment.URL + 'educ'
+  URL = 'https://portfolio-backend-2okb.onrender.com/proy'
 
   constructor(private httpClient: HttpClient) { }
 

@@ -25,15 +25,6 @@ export class ProyectosComponent implements OnInit{
         this.isLogged = false;
       }
   }
-
-
-  //irAUrl(id? : number): void {
-    //this.sProyecto.detail(id).subscribe(
-      //  proyecto => this.proyecto = proyecto)
-        //this.proyecto.url
-        //window.location.href = this.proyecto.url;
-        //window.open(this.proyecto.url, "_blank");
-     // }
         
 
   cargarExperiencia(): void{

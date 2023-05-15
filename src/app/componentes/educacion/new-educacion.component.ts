@@ -13,7 +13,6 @@ export class NewEducacionComponent implements OnInit {
   nombre: string = '';
   descripcion: string = '';
   tiempo: string = '';
-  img: string = '';
 
   constructor(private educSer: EducacionService, private ruta : Router, private imageService: ImageService, private activatedRouter: ActivatedRoute){}
 
@@ -22,7 +21,7 @@ export class NewEducacionComponent implements OnInit {
   }
 
   onCreate(): void{
-    const educ = new Educacion(this.nombre, this.descripcion, this.tiempo, this.img);
+    const educ = new Educacion(this.nombre, this.descripcion, this.tiempo);
     this.educSer.save(educ).subscribe(data=>{alert("Educacion añadida")
     this.ruta.navigate(['/portfolio']);
   },err =>{
@@ -30,10 +29,4 @@ export class NewEducacionComponent implements OnInit {
       this.ruta.navigate(['/portfolio']);
   } )
   }
-
-  uploadImageneduc($event: any){
-    const id = this.activatedRouter.snapshot.params['id'];
-    const nameeduc = "educacion_" + id;
-    this.imageService.uploadImagenbaner($event, nameeduc)
-   }
 }

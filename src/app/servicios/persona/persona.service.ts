@@ -9,7 +9,7 @@ import { environment } from 'src/environments/environment';
   providedIn: 'root'
 })
 export class PersonaService {
-  URL = environment.URL + "personas";
+  URL = "https://portfolio-backend-2okb.onrender.com/personas";
 
   constructor(private HttpClient: HttpClient) { }
 

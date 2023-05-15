@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class PortfolioService {
-  url:string = '';
+  url:string = 'https://portfolio-backend-2okb.onrender.com/';
 
   constructor(private http:HttpClient) { }
 

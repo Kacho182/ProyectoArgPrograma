@@ -36,10 +36,4 @@ export class EditEducacionComponent implements OnInit {
     )
 
   }
-
-  uploadImageneduc($event: any){
-    const id = this.activatedRouter.snapshot.params['id'];
-    const nameeduc = "educacion_" + id;
-    this.imageService.uploadImagenbaner($event, nameeduc)
-   }
 }

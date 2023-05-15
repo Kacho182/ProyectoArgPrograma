@@ -8,7 +8,7 @@ import { Educacion } from '../model/educacion';
   providedIn: 'root'
 })
 export class EducacionService {
-  URL = environment.URL + 'educ'
+  URL = 'https://portfolio-backend-2okb.onrender.com/educ'
 
   constructor(private HttpClient : HttpClient) { }
 

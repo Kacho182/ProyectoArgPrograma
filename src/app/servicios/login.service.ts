@@ -8,7 +8,7 @@ import { environment } from 'src/environments/environment';
 })
 export class LoginService {
 
-  url= environment.URL + 'login';
+  url= 'https://portfolio-backend-2okb.onrender.com/login';
   currentUserSubject: BehaviorSubject<any>;
   constructor (private http:HttpClient){
     console.log("El servicio de autenticacion esta corriendo");
