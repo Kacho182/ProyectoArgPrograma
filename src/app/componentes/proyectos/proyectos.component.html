@@ -4,7 +4,7 @@
     </div>
     <div class="buttonNew">
         <button type="button" class="btn btn-dark" routerLink="/newProy" *ngIf="isLogged" >
-          Nueva experiencia
+          Nuevo Proyecto
         </button>
       </div>
     <div class="container" >
@@ -16,7 +16,7 @@
                     
                     <div class="card-body">
                       <p class="card-text">{{Proyecto.descripcion}}</p>
-                      <a  class="btn btn-primary" >Ir a URL</a>
+                      <a  class="btn btn-primary" [href]="(Proyecto.url)" >Ir a URL</a>
                       <div class="buttons">
                         <div class="editButton" *ngIf="isLogged">
                             <button type="button" class="btn" routerLink="/editProy/{{Proyecto.id}}">

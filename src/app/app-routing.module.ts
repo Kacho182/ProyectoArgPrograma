@@ -16,7 +16,7 @@ import { NewProyectoComponent } from './componentes/proyectos/new-proyecto.compo
 const routes: Routes = [
   {path: 'portfolio', component: PortfolioComponent, },  //canActivate:[GuardGuard]
   {path: 'login', component:LoginComponent},
-  {path: '', redirectTo: 'login', pathMatch: 'full'},
+  {path: '', redirectTo: 'portfolio', pathMatch: 'full'},
   {path: 'nuevaexp', component: NewExperienciaComponent},
   {path: 'editExperiencia/:id', component: EditExperienciaComponent},
   {path: 'neweducacion', component: NewEducacionComponent},

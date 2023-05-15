@@ -1,34 +1,28 @@
 /**/
+
 .mat-card{
     margin: 20px;
-    padding: auto;  
+    padding: auto; 
+
 }
 
 .card{
     margin: 20px;
     padding: auto;
-    border-radius: 50%;  
+    border-radius: 50%;
 }
 
 .card-titleP{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: gray;
+    color:lightcoral;
     border: 10px;
 
 }
 
 
-
-.card-photo{
-    position:relative;
-    left: 1em;
-    width: 150px;
-    height: 150px;
-    background-size: cover;
-    border-radius: 50%;
+.card mat-card{
+    background-color: #520B03;
 }
-
-
 
 
 

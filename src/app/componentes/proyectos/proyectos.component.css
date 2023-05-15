@@ -3,6 +3,7 @@
     position: absolute;
     right: 0;
     top: 0;
+    margin: 20px;
 }
 
 .buttons{
@@ -19,4 +20,7 @@
 
 .deleteButton{
     display: inline-block;
+}
+h2{
+    margin: 20px;
 }

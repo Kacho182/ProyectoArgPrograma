@@ -1,7 +1,7 @@
 
 <div class="card mat-card" id="cardX" >
   <div class="card-titleP">
-      <h2>Proyectos</h2>
+      <h2>Habilidades</h2>
   </div>
   <div class="buttonNew">
     <button type="button" class="btn btn-dark" routerLink="/newHab" *ngIf="isLogged">
@@ -11,16 +11,16 @@
   
 <div class="row">
   <div class="col-md-4" *ngFor="let Skill of skill">
-    <div class="nombre"><h4>{{Skill.nombre}}</h4></div>
     <div class="skill-container">
+    <div class="nombre"><h4>{{Skill.nombre}}</h4></div>
     <circle-progress
       [percent]="(Skill.valor)"
       [radius]="90"
       [title]="(Skill.valor.toString())"                 
       [outerStrokeWidth]="16"
       [innerStrokeWidth]="8"
-      [outerStrokeColor]="'#78C000'"
-      [innerStrokeColor]="'#C7E596'"
+      [outerStrokeColor]="'#CF5438'"
+      [innerStrokeColor]="'#291816'"
       [animation]="true"
       [animationDuration]="300">
     </circle-progress> 

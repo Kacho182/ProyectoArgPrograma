@@ -18,3 +18,21 @@
 .nombre{
     align-items: center;
 }
+
+.buttonNew{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 20px;
+}
+h2{
+    margin: 20px;
+}
+
+.skill-container{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
